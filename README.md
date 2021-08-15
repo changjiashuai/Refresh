@@ -4,6 +4,9 @@ A custom SwiftUI Refresh Control.
 
 ## iPhone Preview
 
+https://user-images.githubusercontent.com/4496625/129470494-d4eb1294-fdd0-41c7-94d0-4397e255dc7d.mp4
+
+
 ## Features
 
 #### Availables
