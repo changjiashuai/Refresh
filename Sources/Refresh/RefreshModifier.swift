@@ -124,7 +124,9 @@ struct RefreshModifier: ViewModifier {
         }
         
         //9. if is refreshing then show headerView else hide headerView
-        headerPadding = refreshControl.isRefreshing ? 0 : -max(rowHeight, bounds.height)
+        withAnimation {
+            headerPadding = refreshControl.isRefreshing ? 0 : -max(rowHeight, bounds.height)
+        }
         
         //10. record current progress for next pulling
         headerPreviousProgress = refreshControl.progress
